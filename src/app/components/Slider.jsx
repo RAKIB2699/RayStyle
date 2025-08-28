@@ -27,7 +27,7 @@ export default function Slider() {
       {/* Slide 1 */}
       <SwiperSlide className="relative">
         <Image
-          src="/banner/sun-1.webp"
+          src="/banner/x-1.webp"
           alt="Banner 1"
           width={1280}
           priority={false} 
@@ -42,7 +42,7 @@ export default function Slider() {
     
       <SwiperSlide className="relative">
         <Image
-          src="/banner/sun-2.jpg"
+          src="/banner/x-2.avif"
           alt="Banner 2"
           width={1280}
           height={1500}
@@ -56,7 +56,7 @@ export default function Slider() {
       
       <SwiperSlide className="relative">
         <Image
-          src="/banner/sun-3.webp"
+          src="/banner/x-3.jpg"
           alt="Banner 3"
           width={1200}
           height={1500}
@@ -65,17 +65,7 @@ export default function Slider() {
         />
         <div className="absolute inset-0 bg-black/50"></div>
       </SwiperSlide>
-            <SwiperSlide className="relative">
-        <Image
-          src="/banner/sun-4.webp"
-          alt="Banner 3"
-          width={1200}
-          height={1500}
-          priority={false} 
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/50"></div>
-      </SwiperSlide>
+ 
     </Swiper>
   );
 }
